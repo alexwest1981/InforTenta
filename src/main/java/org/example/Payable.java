@@ -1,4 +1,6 @@
 package org.example;
 
-public class Payable {
+public interface Payable {
+    void pay(double amount);
+    String checkStatus();
 }
